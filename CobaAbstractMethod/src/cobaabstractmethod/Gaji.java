@@ -19,13 +19,13 @@ public class Gaji extends Karyawan {
     }
 
     public double computePay() {
-        System.out.println("Menghitung pembayaran gaji untuk " + getName());
-        return gaji / 52;
+        System.out.print("Pembayaran gaji sebesar: ");
+        return gaji / 12;
     }
 
     public void mailCheck() {
         System.out.println("-method mailCheck (class Gaji)");
-        System.out.println("-Mengirim check untuk " + getName() + " dengan gaji " + gaji);
+        System.out.println("-Mengirim check untuk " + getName());
     }
 
     public double getSalary() {

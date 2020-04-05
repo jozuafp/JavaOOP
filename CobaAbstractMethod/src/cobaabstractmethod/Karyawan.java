@@ -24,9 +24,10 @@ public abstract class Karyawan {
 
     public abstract double computePay();
 
-    public void mailCheck() {
-        System.out.println("Mengirim check untuk" + this.nama + " " + this.alamat);
-    }
+    public abstract void mailCheck();
+    //public void mailCheck() {
+    //    System.out.println("Mengirim check untuk" + this.nama + " " + this.alamat);
+    //}
 
     public String toString() {
         return nama + " " + alamat + " " + nomor;
